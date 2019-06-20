@@ -1,0 +1,49 @@
+.sponsorbox {
+    top: 30%;
+    left: 50%;
+    width: calc(92% - 20px);
+    -o-transform: translate(-50%, 0%);
+    -webkit-transform: translate(-50%, 0%);
+    -moz-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+    position: absolute;
+    height: calc(65% - 20px);
+}
+
+.sponsortextbox {
+    width: calc(100% - 40px);
+    left: 50%;
+    -o-transform: translate(-50%, 0%);
+    -webkit-transform: translate(-50%, 0%);
+    -moz-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+    position: absolute;
+    text-align: center;
+}
+.sponsortextbox l1 {
+    font-family: 'Oxygen';
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.sponsortextbox l2 {
+    font-family: 'Rubik';
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.vertbreak {
+    left: 50%;
+    position: absolute;
+    height: 10px;
+    width: 620px;
+    border-bottom: 1px solid white;
+    -o-transform: translate(-50%, 0%);
+    -webkit-transform: translate(-50%, 0%);
+    -moz-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+}

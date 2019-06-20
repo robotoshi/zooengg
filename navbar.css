@@ -1,0 +1,62 @@
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    border-bottom: 2px solid white;
+    background: rgb(225, 225, 225);
+    background: rgba(255, 255, 255, 0.3);
+    text-align: center;
+}
+.navbar a {
+    text-decoration: none;
+}
+.navbar a:hover {
+    text-shadow: 0 0 7px #FFFFFF, 0 0 10px #FFFFFF;
+    text-decoration: none;
+}
+
+.navbox {
+    line-height: 45px;
+    z-index: 2;
+    top: 0;
+    width: 225px;
+    height: 45px;
+    -o-transform: translate(-50%, 0%);
+    -webkit-transform: translate(-50%, 0%);
+    -moz-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+    position: absolute;
+    text-align: center;
+    font-family: 'Oxygen';
+    color: white;
+    text-shadow: -1px -1px rgba(120, 120, 120, 0.6);
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.home {
+    left: calc(50% - 470px);
+}
+
+.about {
+    left: calc(50% - 235px);
+}
+
+.events {
+    left: 50%;
+}
+
+.council {
+    left: calc(50% + 235px);
+}
+
+.sponsors {
+    left: calc(50% + 470px);
+}
+
+#nav-select {
+    text-shadow: 0 0 7px #FFFFFF, 0 0 10px #FFFFFF;
+}

@@ -1,0 +1,77 @@
+.size {
+    top: 50%;
+    left: 50%;
+    width: 1200px;
+    height: 600px;
+    z-index: 1;
+    -o-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.title {
+    top: calc(14% - 20px);
+    left: 4%;
+    position: absolute;
+    font-family: 'Oxygen';
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.bgcolor {
+    background: #003F5A; /* Browsers without gradient support */
+    background: -webkit-radial-gradient(circle, #008FCF, #003F5A); /* Safari */
+    background: -webkit-gradient(circle, #008FCF, #003F5A); /* Chrome */
+    background: -o-radial-gradient(circle, #008FCF, #003F5A); /* Opera */
+    background: -moz-radial-gradient(circle, #008FCF, #003F5A); /* Firefox */
+    background: radial-gradient(circle, #008FCF, #003F5A); /* Standard */
+}
+
+.fill {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.watermark {
+    z-index: 0;
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: calc(50% - 300px);
+    left: calc(50% - 300px);
+    opacity: 0.3;
+}
+
+.site {
+    min-width: 1200px;
+    min-height: 600px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.displaybox {
+    background: rgba(150, 150, 150, 0.4);
+    border-radius: 10px;
+    border: 10px solid white;
+}
+
+a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
