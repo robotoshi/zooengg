@@ -1,28 +1,52 @@
+
+.site {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+
+}
+
 .size {
+    width: 100%;
+    height: 100%;
+    position: absolute;
     top: 50%;
     left: 50%;
-    width: 1200px;
-    height: 600px;
     z-index: 1;
+
     -o-transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    position: absolute;
 }
 
-.title {
-    top: calc(14% - 20px);
-    left: 4%;
-    position: absolute;
-    font-family: 'Oxygen';
-    color: white;
-    font-size: 70px;
-    font-weight: bold;
+.content {
+    position: relative;
+    left: 0;
+    top: 15%;
+    width: 100%;
+    height: 100%;
+
+    overflow-x: visible;
+    overflow-y: visible;
+}
+
+.watermark {
+    z-index: 0;
+    width: 600px;
+    height: 600px;
+    position: fixed;
+    top: calc(50% - 300px);
+    left: calc(50% - 300px);
+    opacity: 0.3;
 }
 
 .bgcolor {
+    z-index: -1;
     background: #003F5A; /* Browsers without gradient support */
     background: -webkit-radial-gradient(circle, #008FCF, #003F5A); /* Safari */
     background: -webkit-gradient(circle, #008FCF, #003F5A); /* Chrome */
@@ -32,35 +56,39 @@
 }
 
 .fill {
-    position: absolute;
+    z-index: -1;
+    position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
 }
 
-.watermark {
-    z-index: 0;
-    width: 600px;
-    height: 600px;
-    position: absolute;
-    top: calc(50% - 300px);
-    left: calc(50% - 300px);
-    opacity: 0.3;
-}
+.title {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: 15px;
 
-.site {
-    min-width: 1200px;
-    min-height: 600px;
-    overflow: hidden;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    text-align: center;
+    font-family: 'Oxygen';
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    z-index: 2;
+    white-space: nowrap;
 }
 
 .displaybox {
+    display: block;
+    position: relative;
+    max-width: 800px;
+    height: auto;
+    padding: 15px;
+    margin: auto;
+
     background: rgba(150, 150, 150, 0.4);
     border-radius: 10px;
     border: 10px solid white;
@@ -74,4 +102,12 @@ a {
 
 a:hover {
     text-decoration: none;
+}
+
+.middle {
+    -o-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }

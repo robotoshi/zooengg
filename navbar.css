@@ -1,12 +1,13 @@
 .navbar {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 45px;
+    z-index: 5;
     border-bottom: 2px solid white;
     background: rgb(225, 225, 225);
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(0, 143, 207, 0.85);
     text-align: center;
 }
 .navbar a {
@@ -18,8 +19,9 @@
 }
 
 .navbox {
+    position: fixed;
     line-height: 45px;
-    z-index: 2;
+    z-index: 4;
     top: 0;
     width: 225px;
     height: 45px;
@@ -28,7 +30,6 @@
     -moz-transform: translate(-50%, 0%);
     -ms-transform: translate(-50%, 0%);
     transform: translate(-50%, 0%);
-    position: absolute;
     text-align: center;
     font-family: 'Oxygen';
     color: white;
