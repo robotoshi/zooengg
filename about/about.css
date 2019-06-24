@@ -1,16 +1,3 @@
-.abouttextbox l1 {
-    font-family: 'Oxygen';
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-}
-.abouttextbox l2 {
-    font-family: 'Rubik';
-    color: white;
-    font-size: 17px;
-    font-weight: normal;
-}
-
 .contacts {
     display: block;
     position: relative;

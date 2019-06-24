@@ -1,15 +1,11 @@
-.calendar {
-    position: absolute;
-    top: 50px;
-    left: 50%;
-    width: 70%;
-    -o-transform: translate(-50%, 0%);
-    -webkit-transform: translate(-50%, 0%);
-    -moz-transform: translate(-50%, 0%);
-    -ms-transform: translate(-50%, 0%);
-    transform: translate(-50%, 0%);
+#calendar {
+    position: relative;
+    margin: auto;
+    width: auto;
+    height: auto;
     font-family: 'Oxygen';
     color: white;
+    z-index: 4;
 }
 
 .fc-head {
@@ -51,23 +47,8 @@
     background: rgba(150, 150, 150, 0.4);
 }
 
-.displaybox {
-    background: none;
-    border-radius: 10px;
-    border: 10px solid white;
-}
-
 .calendaroutline {
-    position: absolute;
-    top: 99px;
-    left: 50%;
-    width: 70%;
-    height: 470px;
-    -o-transform: translate(-50%, 0%);
-    -webkit-transform: translate(-50%, 0%);
-    -moz-transform: translate(-50%, 0%);
-    -ms-transform: translate(-50%, 0%);
-    transform: translate(-50%, 0%);
+    background: rgba(0, 143, 207, 0.9);
 }
 
 .fc h2 {

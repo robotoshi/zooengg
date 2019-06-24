@@ -1,4 +1,4 @@
-::-webkit-scrollbar {
+/*::-webkit-scrollbar {
     width: 10px;
     height: 10px;
 }
@@ -9,77 +9,44 @@
 ::-webkit-scrollbar-button {
     height: 7px;
 }
-
-.councilright {
-    top: 12%;
-    left: 68%;
-    width: calc(56% - 20px);
-    height: calc(83% - 20px);
-    -o-transform: translate(-50%, 0%);
-    -webkit-transform: translate(-50%, 0%);
-    -moz-transform: translate(-50%, 0%);
-    -ms-transform: translate(-50%, 0%);
-    transform: translate(-50%, 0%);
-    position: absolute;
-}
-
-.councilleft {
-    top: 30%;
-    left: 20%;
-    width: calc(32% - 20px);
-    -o-transform: translate(-50%, 0%);
-    -webkit-transform: translate(-50%, 0%);
-    -moz-transform: translate(-50%, 0%);
-    -ms-transform: translate(-50%, 0%);
-    transform: translate(-50%, 0%);
-    position: absolute;
-    height: calc(56% - 10px);
-}
-
-.counciltextbox {
-    width: calc(100% - 20px);
-    float: left;
-    overflow: hidden;
-}
-.counciltextbox l1 {
-    font-family: 'Oxygen';
-    color: white;
-    font-size: 33px;
-    font-weight: bold;
-}
-.counciltextbox l2 {
-    font-family: 'Rubik';
-    color: white;
-    font-size: 16px;
-    font-weight: normal;
-}
-
-.councilscrollbox {
-    width: calc(56% - 40px);
-    height: calc(83% - 20px);
+*/
+.councillist {
+    width: calc(46% - 20px);
+    /*max-height: 500px;*/
+    background: none;
     overflow: auto;
-    top: calc(12% + 10px);
+}
+
+.councilinfo {
+    width: calc(46% - 20px);
+    height: auto;
 }
 
 .box {
-    height: 100px;
+    display: block;
+    position: relative;
+    height: auto;
+    margin: auto;
+    margin-bottom: 50px;
 }
 
-.image {
+.picture {
+    display: inline;
     float: left;
     width: 100px;
     height: 100px;
     border: 3px solid #FFFFFF;
     background-color: #BBBBBB;
+    margin: 10px;
 }
 
-.picture {
-    width: 100px;
-    height: 100px;
+.email {
+    display: inline;
+    float: right;
 }
 
 .text {
-    float: left;
+    display: inline;
     height: 100px;
     width: calc(60% - 140px);
 }
@@ -94,18 +61,4 @@
     color: white;
     font-size: 20px;
     font-weight: normal;
-}
-
-.horizbreak {
-    float: left;
-    height: 100px;
-    width: 10px;
-}
-
-.vertbreak {
-    height: 10px;
-}
-
-.vertbreaklast {
-    height: 16px;
 }
