@@ -75,7 +75,7 @@
     text-align: center;
     font-family: 'Oxygen';
     color: white;
-    font-size: 70px;
+    font-size: 4vw;
     font-weight: bold;
     z-index: 2;
     white-space: nowrap;
@@ -86,9 +86,9 @@
     position: relative;
     max-width: 800px;
     height: auto;
-    padding: 15px;
+    padding: 1vw;
     margin: auto;
-    margin-bottom: 80px;
+    margin-bottom: 5vw;
 
     background: rgba(150, 150, 150, 0.8);
     border-radius: 10px;
@@ -98,13 +98,14 @@
 .textbox l1 {
     font-family: 'Oxygen';
     color: white;
-    font-size: 33px;
+    font-size: 2.3vw;
     font-weight: bold;
+    
 }
 .textbox l2 {
     font-family: 'Rubik';
     color: white;
-    font-size: 18px;
+    font-size: 1.2vw;
     font-weight: normal;
 }
 

@@ -27,14 +27,15 @@
     position: relative;
     height: auto;
     margin: auto;
-    margin-bottom: 50px;
+    padding-top: 5%;
+    padding-bottom: 5%
 }
 
 .picture {
     display: inline;
     float: left;
-    width: 100px;
-    height: 100px;
+    width: 7vw;
+    height: 7vw;
     border: 3px solid #FFFFFF;
     background-color: #BBBBBB;
     margin: 10px;
@@ -47,18 +48,18 @@
 
 .text {
     display: inline;
-    height: 100px;
-    width: calc(60% - 140px);
+    height: auto;
+    width: auto;
 }
 .text l1 {
     font-family: 'Oxygen';
     color: white;
-    font-size: 33px;
+    font-size: 2.3vw;
     font-weight: bold;
 }
 .text l2 {
     font-family: 'Rubik';
     color: white;
-    font-size: 20px;
+    font-size: 1.5vw;
     font-weight: normal;
 }
