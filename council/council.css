@@ -13,7 +13,8 @@
 .councillist {
     width: calc(46% - 20px);
     /*max-height: 500px;*/
-    background: none;
+    min-width: 200px;
+    /*background: rgba(150, 150, 150, 0.7);*/
     overflow: auto;
 }
 
@@ -54,12 +55,12 @@
 .text l1 {
     font-family: 'Oxygen';
     color: white;
-    font-size: 2.3vw;
+    font-size: 2vw;
     font-weight: bold;
 }
 .text l2 {
     font-family: 'Rubik';
     color: white;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     font-weight: normal;
 }

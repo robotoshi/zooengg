@@ -33,7 +33,7 @@
 
 .fc-day.fc-today::after {
     border-radius: 0;
-    border-width: 1.3em;
+    border-width: 1.5vw;
     border-right-color: rgb(159, 205, 236);
     border-top-color: rgb(159, 205, 236);
 }
@@ -48,9 +48,44 @@
 }
 
 .calendaroutline {
-    background: rgba(0, 143, 207, 0.9);
+    background: none;/*rgba(0, 143, 207, 0.9);*/
+    margin-top: 2vw;
+    margin-bottom: 0;
+    /*min-width: 400px;*/
 }
 
 .fc h2 {
-    font-size: 30px;
+    font-size: 2vw;
+    float: right !important;
+}
+
+th {
+    font-size: 1vw;
+}
+
+.fc button {
+    padding: 0 0.2vw !important;
+    font-size: 1.1vw !important;
+}
+
+ .fc-toolbar.fc-header-toolbar {
+    margin-bottom: 1vw !important;
+ }
+
+ .fc-day-number {
+    font-size: 1vw !important;
+ }
+
+.fc-row.fc-week.fc-widget-content {
+    min-height: 0 !important;
+    height: 10vh !important;
+}
+
+.fc-day-grid-container {
+    height: auto !important;
+}
+
+.fc-toolbar .fc-center {
+    float: right;
+    margin-right: 1vw;
 }
