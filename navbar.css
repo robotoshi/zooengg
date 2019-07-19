@@ -2,7 +2,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     height: auto;
     z-index: 5;
     background: rgba(0, 143, 207, 0.85);
@@ -16,8 +16,8 @@
     left: 0;
     margin: 0.5vw;
 
-    width: 11vw;
-    height: 11vw;
+    width: 10vw;
+    height: 10vw;
 }
 
 .rightside {
@@ -36,7 +36,7 @@
     height: auto;
     width: auto;
     margin: auto;
-    margin-bottom: 1.1vw;
+    margin-bottom: 0.8vw;
 
     background: none;
 
@@ -44,7 +44,7 @@
     font-family: 'Oxygen';
     color: white;
     text-shadow: -1px -1px rgba(120, 120, 120, 0.6);
-    font-size: 2.2vw;
+    font-size: 2vw;
     font-weight: bold;
     white-space: nowrap;
 }
@@ -59,13 +59,15 @@
     height: auto;
     width: auto;
     background: none;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
 }
 
 .navbar > a {
     font-family: 'Oxygen';
     color: white;
     text-shadow: -1px -1px rgba(120, 120, 120, 0.6);
-    font-size: 1.8vw;
+    font-size: 1.6vw;
     font-weight: normal;
     text-decoration: none;
 }
