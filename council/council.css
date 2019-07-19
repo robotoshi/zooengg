@@ -14,7 +14,6 @@
     width: calc(46% - 20px);
     /*max-height: 500px;*/
     min-width: 200px;
-    /*background: rgba(150, 150, 150, 0.7);*/
     overflow: auto;
 }
 
