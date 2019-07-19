@@ -3,6 +3,7 @@
 User-agent: *
 Disallow: /wiki/
 Disallow: /ewma/
+Disallow: /devtest/
 
 # advertising-related bots:
 User-agent: Mediapartners-Google*
